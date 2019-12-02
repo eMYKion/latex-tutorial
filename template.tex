@@ -1,0 +1,72 @@
+
+\documentclass[12pt]{article}
+%you can look for fun LaTeX packages to use here
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+
+%fun commands for fun sets
+%make sure to use these in math mode
+\newcommand{\Zset}{\mathbb{Z}}
+\newcommand{\Rset}{\mathbb{R}}
+\newcommand{\Nset}{\mathbb{N}}
+
+%it may be helpful to make more commands for words/symbols you use often that you don't have to keep typing 
+
+\oddsidemargin0cm
+\topmargin-2cm    
+\textwidth16.5cm   
+\textheight23.5cm  
+
+\newcommand{\question}[2] {\vspace{.25in} \hrule\vspace{0.5em}
+\noindent{\bf #1: #2} \vspace{0.5em}
+\hrule \vspace{.10in}}
+\renewcommand{\part}[1] {\vspace{.10in} {\bf (#1)}}
+
+%edit this based on your name and course!
+\newcommand{\myname}{[Name Here]}
+\newcommand{\myandrew}{[Andrew ID Here]}
+\newcommand{\myhwnum}{[Homework Number Here]}
+\newcommand{\mycourse}{[Course Number Here]}
+\newcommand{\secnum}{[Section Number Here]}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt}
+ 
+\pagestyle{fancyplain}
+\lhead{\fancyplain{}{\textbf{HW\myhwnum}}}      
+\rhead{\fancyplain{}{\myname\\ \myandrew}}
+\chead{\fancyplain{}{\mycourse}}
+
+\begin{document}
+
+\medskip                        
+
+\thispagestyle{plain}
+\begin{center}                  
+{\Large \mycourse HW \myhwnum} \\
+\myname \\
+\myandrew \\
+\mycourse Section \secnum
+\end{center}
+
+\question{Question 1}
+
+Type your answer to question 1 here. \\\\\\
+
+\break
+
+\question{Question 2} 
+
+Type your answer to question 2 here. \\
+Add more questions by adding a break and then a new header.
+\\\\
+
+
+
+
+
+\end{document}
+
+
